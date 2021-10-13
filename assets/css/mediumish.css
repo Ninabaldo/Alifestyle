@@ -202,11 +202,14 @@ span.post-name a,span.post-read-more a:hover {
 	margin-right:5px;
 }
 .mainheading h1.sitetitle {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:'Courier New', Courier, monospace;
+	color:rgb(255, 123, 0);
+	font-weight: 400;
 }
 .mainheading h1.posttitle {
 	font-weight:700;
 	margin-bottom:1rem;
+	
 }
 .footer {
 	border-top:1px solid rgba(0,0,0,.05)!important;
@@ -455,4 +458,19 @@ secondary.dropdown-toggle {
 .a.navbar-brand{
 height: 90px;
 width: 90px;
+}
+
+.row {
+     display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand.img{
+	max-height: 90px;
 }
