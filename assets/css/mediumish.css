@@ -332,9 +332,14 @@ blockquote {
 	fill:rgba(0,0,0,.44);
 }
 .graybg {
-	background-color:#fafafa;
+	
+	background-color:rgb(230, 229, 223);
+    justify-content: center;
+	align-items: center;
+	display:flex;
 	padding:40px 0 46px;
 	position:relative;
+	margin-top:30px;
 }
 .listrelated .card {
 	box-shadow:0 1px 7px rgba(0,0,0,.05);
