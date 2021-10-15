@@ -544,3 +544,13 @@ width: 90px;
 	background-image: url("/assets/img/demopic/coffee-g7ee4b053e_1920.jpg");
 
 }
+
+@media screen and (min-width: 768px) {
+  /* Define the width and the gutter for columns. */
+  .tp-row-2 .tp-col {
+    width: 58.25%;
+    float: left;
+    margin-right: 3.5%;
+    margin-bottom: 1.5em
+  }
+}
