@@ -1,16 +1,10 @@
-$('.gallery ul li a').click(function () {
-    var itemID = $(this).attr('href');
-    $('.gallery ul').addClass('item_open');
-    $(itemID).addClass('item_open');
-    return false;
-});
-$('.close').click(function () {
-    $('.port, .gallery ul').removeClass('item_open');
-    return false;
-});
+var myVar;
 
-$(".gallery ul li a").click(function () {
-    $('html, body').animate({
-        scrollTop: parseInt($("#top").offset().top)
-    }, 400);
-});
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+}

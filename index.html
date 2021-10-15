@@ -19,6 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Rajdhani&display=swap" rel="stylesheet">
 <link href="/assets/fonts/Montserrat (1)/Montserrat-Medium.ttf" rel="stylesheet">
+<link href="/assets/fonts/webpro-elmoder-regular-NGQGWZ4-components-2020-05-07/ELMODER.otf " rel="stylesheet">
  
 
 <!-- Custom styles for this template -->
@@ -38,7 +39,7 @@
 		<!-- Begin Menu -->
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item active">
-			<a class="nav-link" href="index.html">Destacados<span class="sr-only">(current)</span></a>
+			<a class="nav-link" href="index.html">Suscribete<span class="sr-only">(current)</span></a>
 			</li>
 			
 		</ul>
@@ -51,6 +52,7 @@
     <button class="dropdown-item" style="color:white; font-size: 13px;"type="button">ENTRENAMIENTO Y DEPORTE</button>
     <button class="dropdown-item" style="color:white; font-size: 13px;"type="button">EL MUNDO A TUS PIES</button>
 	<button class="dropdown-item" style="color:white; font-size: 13px;" type="button">PRODUCTIVIDAD Y EMPRENDIMIENTO</button>
+	<button class="dropdown-item" style="color:white; font-size: 13px;" type="button">VINTAGE</button>
   </div>
 </div>
 		<!-- End Menu -->
@@ -62,13 +64,16 @@
 </div>
 
 </nav>
-<!-- End Nav
-================================================== -->
 
-<a class="marca" href="index.html">
-	<img src="assets/img/logo.png" style="width: 400px; margin-top:-200px" alt="marcalogo">
-	</a>
+<body onload="myFunction()" style="margin:0;">
 
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  
+ <div style="background-image: url('/assets/img/demopic/tiles-g3c016ee21_1920.jpg');
+  background-size: cover; height:380px; padding-top:80px; opacity: 70%;"> <h1 style=" margin-top:5px; background:rgb(255, 255, 255); color:rgb(0, 0, 0);"> L'INDISCRET <br> Magazine 0021 </h1>
+  </div>
 
 	<!-- Begin Featured
 	================================================== -->
@@ -89,7 +94,7 @@
 				</div>
 				<div class="col-md-7">
 					<div class="card-block">
-						<h2 class="card-title"><a href="post.html">5 ideas de desayuno energético y equilibrado</a></h2>
+						<h2 class="card-title"><a href="post.desayunos.html">5 ideas de desayuno energético y equilibrado</a></h2>
 						<h4 class="card-text">Hoy<a href="#"> @nutrivinyi </a> nos presenta  5 super ideas de desayuno para que empiezes bien tu día de forma energética y equilibrada, porqué comer sano es una práctica con grandes beneficios.</h4>
 						
 					</div>
@@ -109,7 +114,7 @@
 				</div>
 				<div class="col-md-7">
 					<div class="card-block">
-						<h2 class="card-title"><a href="post.crecimiento.html">Libros sobre crecimiento personal</a></h2>
+						<h2 class="card-title"><a href="posts productividad/post.crecimiento.html">Libros sobre crecimiento personal</a></h2>
 						<h4 class="card-text">Si te gusta leer y te apasiona el crecimiento personal, en esta sección encontrarás unos fantásticos libros para tu desarrollo personal.</h4>
 						
 					</div>
@@ -177,8 +182,8 @@
 				<img class="img-fluid" src="assets/img/demopic/pizza-g1c71db14b_1920.jpg" alt="">
 			</a>
 			<div class="card-block">
-				<h2 class="card-title"><a href="post.html">Pizzas caseras, ahorro y nutrición</a></h2>
-				<h4 class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
+				<h2 class="card-title"><a href="post.html">Pizzas caseras; fácil, nutritivo y económico</a></h2>
+				<h4 class="card-text">En L'INDISCRECT Mag, nos encanta lo bueno bonito y barato, y por ello hoy os presentamos tres ideas de pizzas caseras. No podrás resistirte a ellas</h4>
 				<div class="metafooter">
 					<div class="wrapfooter">
 						<span class="meta-footer-thumb">
@@ -250,7 +255,7 @@
 			</a>
 			<div class="card-block">
 				<h2 class="card-title"><a href="post.html">¿Cuáles son las frutas de esta temporada?</a></h2>
-				<h4 class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
+				<h4 class="card-text">Que rica y buena está la fruta, ¿verdad?, pero, ¿Cuando es mejor tomar la piña, el melón, o el kiwi?, porqué es importante saber cuándo comer cada cosa?</h4>
 				<div class="metafooter">
 					<div class="wrapfooter">
 						<span class="meta-footer-thumb">
@@ -294,10 +299,10 @@
 		<!-- begin post -->
 		<div class="card">
 			<a href="post.html">
-				<img class="img-fluid" src="assets/img/demopic/10.jpg" alt="">
+				<img class="img-fluid" src="assets/img/demopic/vegetables-gef19b891f_1920.jpg" alt="">
 			</a>
 			<div class="card-block">
-				<h2 class="card-title"><a href="post.html">Visiting the world means learning cultures</a></h2>
+				<h2 class="card-title"><a href="post.html">¿Qué son los Antioxidantes?</a></h2>
 				<h4 class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h4>
 				<div class="metafooter">
 					<div class="wrapfooter">
@@ -318,9 +323,11 @@
 	</div>
 	</section>
 
+	<button  style="margin-left: 1200px;">Descubrir más</button>
+
 		<section class="recent-posts">
 	<div class="section-title">
-		<h2><span>Gastronomía y hoteles de proximidad</span></h2>
+		<h2><span>El mundo a tus pies</span></h2>
 	</div>
 	<div class="card-columns listrecent">
 
@@ -331,7 +338,7 @@
 			</a>
 			<div class="card-block">
 				<h2 class="card-title"><a href="post.gastro.html">Gastronomía con encanto cerca de Barcelona</a></h2>
-				<h4 class="card-text">En este post os presentamos los restaurantes con más encanto segun el criterio de LifeStyle Magazine</h4>
+				<h4 class="card-text">En este post os presentamos los restaurantes con más encanto segun el criterio de L'INDISCRET Magazine</h4>
 				<div class="metafooter">
 					<div class="wrapfooter">
 						<span class="meta-footer-thumb">
@@ -355,7 +362,7 @@
 			</a>
 			<div class="card-block">
 				<h2 class="card-title"><a href="post.html">Cozy hoteles cerca de Barcelona</a></h2>
-				<h4 class="card-text">Hoteles 5 estrellas, hoteles boutique, y preciosos hostales para disfrutar en velada romántica</h4>
+				<h4 class="card-text">Hoteles 5 estrellas, hoteles boutique, y preciosos hostales para disfrutar y desconectar</h4>
 				<div class="metafooter">
 					<div class="wrapfooter">
 						<span class="meta-footer-thumb">
@@ -379,7 +386,7 @@
 			</a>
 			<div class="card-block">
 				<h2 class="card-title"><a href="post.sevilla.html">Viva el sur! España</a></h2>
-				<h4 class="card-text">Sevilla tiene un color muy epecial y eso lo sabemos de sobra, ¿Que hacer dos dias en Sevilla?, aquí la respuesta que buscas</h4>
+				<h4 class="card-text">El calor, las playas, los pueblos bonitos, España tiene un sur<br> "pa hablar de él" <br> </h4>
 				<div class="metafooter">
 					<div class="wrapfooter">
 						<span class="meta-footer-thumb">
@@ -485,7 +492,7 @@
 				<img class="img-fluid" src="assets/img/demopic/alga.png" alt="">
 			</a>
 			<div class="card-block">
-				<h2 class="card-title"><a href="post.gastro.html">Jóvenes y emprendedores</a></h2>
+				<h2 class="card-title"><a href="post.gastro.html">Alga Studio, tres jóvenes con mucho talento</a></h2>
 				<h4 class="card-text">En este post os presentamos los restaurantes con más encanto segun el criterio de LifeStyle Magazine</h4>
 				<div class="metafooter">
 					<div class="wrapfooter">
@@ -509,8 +516,8 @@
 				<img class="img-fluid" src="assets/img/demopic/" alt="">
 			</a>
 			<div class="card-block">
-				<h2 class="card-title"><a href="post.html">Cozy hoteles cerca de Barcelona</a></h2>
-				<h4 class="card-text">Hoteles 5 estrellas, hoteles boutique, y preciosos hostales para disfrutar en velada romántica</h4>
+				<h2 class="card-title"><a href="post.html">Entrevista a </a></h2>
+				<h4 class="card-text">Hoy entrevistamos a Paula Cordón y Alex Sallarés, los funfadores y creadores de la marca xxxx</h4>
 				<div class="metafooter">
 					<div class="wrapfooter">
 						<span class="meta-footer-thumb">
@@ -686,7 +693,7 @@
 				<img class="img-fluid" src="assets/img/demopic/smeg.jpeg" alt="">
 			</a>
 			<div class="card-block">
-				<h2 class="card-title"><a href="post.sevilla.html">Electro Fashion</a></h2>
+				<h2 class="card-title"><a href="post.sevilla.html"> Fashion Kitchen</a></h2>
 				<h4 class="card-text">Descubre los nuevos productos de Smeg, diseñados por<br> Dolce & Gabbana que no pueden faltar en tu cocina</h4>
 				<div class="metafooter">
 					<div class="wrapfooter">
@@ -775,9 +782,46 @@
 			</div>
 		</div>
 		<!-- end post -->
+		
 
 	</div>
 	</section>
+
+<section class="recent-posts">
+	<div class="section-title">
+		<h2><span>Vintage</span></h2>
+	</div>
+	<div class="card-columns listrecent">
+
+		<!-- begin post -->
+		<div class="card">
+			<a href="post.html">
+				<img class="img-fluid" src="assets/img/demopic/analog-g5376bd902_1920.jpg" alt="">
+			</a>
+			<div class="card-block">
+				<h2 class="card-title"><a href="post.vintage.html">La mejor manera de almacenar nuestros momentos analógicas;)</a></h2>
+				<h4 class="card-text">En este post os presentamos los restaurantes con más encanto segun el criterio de LifeStyle Magazine</h4>
+				<div class="metafooter">
+					<div class="wrapfooter">
+						<span class="meta-footer-thumb">
+						
+						</span>
+						<span class="author-meta">
+						
+						<span class="post-date">Oct 2021</span><span class="dot"></span><span class="post-read">6 min read</span>
+						</span>
+						<span class="post-read-more"><a href="post.html" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end post -->
+
+
+
+
+
+
 	<!-- End List Posts
 	================================================== -->
 	<!-- End List Posts
@@ -795,6 +839,7 @@
 	<!-- End Footer
 	================================================== -->
 
+</div>
 </div>
 <!-- /.container -->
 
