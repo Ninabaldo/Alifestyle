@@ -17,11 +17,9 @@ font-weight: medium;
 	margin-top: 30px;
 }
 a {
-	color:#00ab6b;
+	color:#131e3b;
 }
-a,a:hover {
-	transition:all 0.2s;
-}
+
 .mediumnavigation {
 	background:rgba(255,255,255,.97);
 	box-shadow:0 2px 2px -2px rgba(0,0,0,.15);
@@ -30,10 +28,12 @@ section {
 	margin-bottom:20px;
 }
 .section-title h2 {
-	border-bottom:1px solid rgba(0,0,0,.15);
+	border-bottom:1px solid rgba(202, 115, 64, 0.15);
+	color:rgb(45, 58, 133);
+	
 	margin-bottom:25px;
-	font-weight:700;
-	font-size:1.4rem;
+	font-weight:lighter;
+	font-size:2.4rem;
 	margin-bottom:27px;
 	margin-top:50px;
 	

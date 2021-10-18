@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400|Lora:400);
 html {
   font: 400 1em/1.33 "Lora", serif;
-  background-color: #191919;
+  background-color: #ffffff;
 }
 
 body {
@@ -10,7 +10,10 @@ body {
 }
 
 .profile {
-  background: url("/assets/img/demopic/books-gf5333401c_1920.jpg") center 30%;
+
+  margin-top: 50px;
+  margin:50px;
+  background: url("/assets/img/demopic/alga.png") center 30%;
   height: 50vh;
   background-size: cover;
 }
@@ -52,10 +55,10 @@ header {
 }
 
 h1 {
-  font-family: "Old Standard TT", serif;
-  color: #fcf704;
-  text-transform: uppercase;
-  font-weight: 400;
+  font-family: sans-serif;
+  color: #000000;
+  font-weight:lighter;
+  margin-top: 80px;
 }
 
 .nth-line-1,
@@ -91,12 +94,13 @@ h1 {
 
 hr {
   border: none;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/5175/hr-01.png") no-repeat center;
+  
   height: 40px;
   margin: 5em 0;
 }
 
 section {
+    margin:30px;
   -moz-column-width: 14em;
        column-width: 14em;
   -moz-column-gap: 1.33em;
@@ -110,7 +114,7 @@ section {
 }
 
 section p:first-of-type:first-letter {
-  color: #fcf704;
+  color: #000000;
   float: left;
   font-size: 7em;
   line-height: 1;
@@ -126,16 +130,17 @@ img {
 }
 
 blockquote {
-  border-left: 0.2em solid #9fb9c8;
+  border-left: 0.2em solid #ffffff;
   font-size: 1.953125em;
   padding: 0.1em 0.5em;
   line-height: 1.5;
   margin-left: 0;
   margin-right: 0;
+  margin-top:-30px;
   quotes: "“" "”" "‘" "’";
 }
 blockquote::before, blockquote::after {
-  color: #6d8b99;
+  color: #ffffff;
   font-size: 1.25em;
   line-height: 0;
 }
@@ -151,6 +156,6 @@ blockquote::after {
     right: 100%;
     top: 80vh;
     width: 9em;
-    background: #191919;
+    background: #8b7272;
   }
 }
