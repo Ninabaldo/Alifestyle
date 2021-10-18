@@ -35,7 +35,7 @@ section {
 	font-weight:lighter;
 	font-size:2.4rem;
 	margin-bottom:27px;
-	margin-top:50px;
+	margin-top:140px;
 	
 }
 .section-title span {
@@ -664,6 +664,7 @@ width: 90px;
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+   
 }
 
 .default {
@@ -678,6 +679,7 @@ width: 90px;
   background-size: cover;
   background-position: center;
   background-image: attr(src url) !important;
+ 
 }
 
 .box {
@@ -720,8 +722,20 @@ width: 90px;
 .small {
   width: 33.33333333%!important;
   float: right;
+  height: 160px;
+  max-height: 160px;
+  padding: 220px 40px 20px;
+  background-size: cover;
+  background-position: center;
+  background-image: attr(src url) !important;
+  
 }
 
 
+h2.title:hover{
+	
+	color:rgba(255, 255, 255, 0.76);
+	background-color:rgba(253, 208, 61, 0.76);
+}
 
 
