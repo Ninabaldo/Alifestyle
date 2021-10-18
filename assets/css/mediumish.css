@@ -66,6 +66,7 @@ section {
 }
 .card-columns .card {
 	margin-bottom:20px;
+	
 }
 .listfeaturedtag .wrapthumbnail {
 	height:258px;
@@ -656,5 +657,71 @@ width: 90px;
 .subscribe-wrapper .submit-btn:hover {
   background-color: #5183b1;
 }
+
+
+
+#news {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.default {
+  height: 220px;
+  max-height: 220px;
+  padding: 0 20px;
+}
+.featured {
+  height: 460px;
+  max-height: 460px;
+  padding: 220px 40px 20px;
+  background-size: cover;
+  background-position: center;
+  background-image: attr(src url) !important;
+}
+
+.box {
+  box-shadow: 0 4px 16px -2px rgba(0,0,0,.1), 0 0 0 1px rgba(0,0,0,.02);
+  position: relative;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.default .title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.default .body {
+  font-size: 18px; 
+  color: rgba(0, 0, 0, 0.44);
+  fill: rgba(0,0,0,.44);
+}
+.featured .title {
+  font-size: 5vw;
+  
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 128, 55, 0.404);
+  font-weight: medium;
+  margin-top: -150px;
+  cursor:pointer;
+  
+}
+
+.featured .title:hover{
+	color:rgba(255, 255, 255, 0.76);
+	background-color:rgba(253, 208, 61, 0.76);
+}
+
+.big {
+  width: 64.5%;
+  float: left;
+  
+}
+.small {
+  width: 33.33333333%!important;
+  float: right;
+}
+
+
 
 
